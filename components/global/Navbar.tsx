@@ -3,6 +3,7 @@ import React from 'react'
 import { ModeToggle } from '../ld-toggle'
 import Link from 'next/link'
 import { Button } from '../ui/button'
+import { SiGitbook } from "react-icons/si";
 
 type Props = {}
 
@@ -22,8 +23,8 @@ const Navbar = (props: Props) => {
           />
       </Link>
       <div>
-        <Link href='/blog'>
-          <Button variant={'link'}>Blog</Button>
+        <Link href='https://gontay.gitbook.io/thoughts'>
+          <Button variant={'link'}><SiGitbook className=''/>Blog</Button>
         </Link>    
         <ModeToggle/>
       </div>
