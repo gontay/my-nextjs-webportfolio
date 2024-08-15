@@ -35,12 +35,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="mx-auto max-w-2xl ">
+      <body className="mx-auto max-w-2xl">
         <ThemeProvider
         attribute="class"
         defaultTheme="system"
         enableSystem
-        disableTransitionOnChange>
+        >
           <Navbar/>
             {children}
           <footer>

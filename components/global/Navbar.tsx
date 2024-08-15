@@ -9,7 +9,7 @@ type Props = {}
 
 const Navbar = (props: Props) => {
   return (
-    <div className="sticky top-0 z-10 flex max-w-3xl place-content-between place-items-center p-2 shadow-md rounded-md bg-white dark:bg-black dark:drop-shadow-glow ">
+    <div className="sticky top-0 z-10 flex max-w-3xl place-content-between place-items-center p-2 shadow-md rounded-md dark:bg-black dark:drop-shadow-glow ">
       <Link href="/">
         <Image src="/images/light/favicon-32x32.png" alt="image" 
           width={32}
@@ -22,10 +22,7 @@ const Navbar = (props: Props) => {
           className='hidden dark:block hover:scale-110'
           />
       </Link>
-      <div>
-        <Link href='https://gontay.gitbook.io/thoughts'>
-          <Button variant={'link'}><SiGitbook className=''/>Blog</Button>
-        </Link>    
+      <div className='flex gap-x-2'>
         <ModeToggle/>
       </div>
     </div>
