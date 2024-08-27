@@ -22,7 +22,7 @@ const Profile = (props: Props) => {
         </div>
       <div className='flex gap-2 justify-center text-center pb-10'>
         <p>
-          Aspiring Business Analyst / Intellectual / Muay Thai Practitioner / Tennis Player
+          Aspiring Business Analyst / Muay Thai Practitioner / Tennis Player
         </p>
       </div>
       <Socials/>
